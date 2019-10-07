@@ -1,6 +1,6 @@
 # Proposed System
 
-The proposed approach envisioned in this thesis exploits **visual** characteristic of fashion items to learn two relational properties between fashion items: (1) **visual similarity** and (2) **visual complementariness**. In the following, we describe each processing step of the proposed outfit recommendation system:
+The proposed approach envisioned in this thesis exploits **visual** characteristic of fashion items to learn two relational properties between fashion items: (i) **visual similarity** and (ii) **visual complementariness**. In the following, we describe each processing step of the proposed outfit recommendation system:
   
   - Step 1 **Visual feature extraction**: The system takes as input a number of fashion items representing an outfit (the number can be different for each outfit). The process starts by extracting representative visual features from each fashion item in an outfit based on state-of-the-art CNNs. This would result in each fashion item represented by a feature vector called \textbf{item profile}. We consider several pretrained networks used in the field of visual recognition namely: AlexNet, ResNet18, GoogleNet, VGG16 and VGG19.
   
