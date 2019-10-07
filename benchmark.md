@@ -2,10 +2,7 @@
  We have conducted extensive offline experiments to evaluate how the use of our proposed fashion outfit recommendation system affect the performance compared with state-of-the-art baseline end-to-end Siamese architecture. For the offline experiment, we are targeting the outfit compatibility prediction task, whose goal is to predict a compatibility score to a fashion outfit 
  
  Results of extensive experiments for the task outfit compatibility prediction on a publicly available dataset based on Polyvore indicates the merits of the proposed approach, which is able to improve the quality of Siamese-network more than 25\% independent of CNN type and a random recommender by 42\%.
- 
- The feature extraction of Fashion items is implemented on MTLAB 2019 on MacBook pro $3.1$ GHz Intel Core $i7$. The pre-trained deep neural networks are used for feature extraction. Likewise, aggregation step and classification are done by MTLAB 2019. The generation of the baseline representations  (siamese network) is implemented on python $3.7$ and \emph{keras} frame work on the server by using common Python libraries (pandas, numpy and scikit-learn,).    
- 
- 
+
 <table>
   <tr>
     <th></th>
