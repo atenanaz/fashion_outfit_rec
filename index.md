@@ -1,4 +1,4 @@
-Fashion recommendation services have gained lot of popularity over the last decade in online fashion stores. fashion recommender systems (RSs) can act as a principal defense strategy against consumer over choice and contribute significantly in the economic landscape of the textile and fashion industry. 
+Fashion recommendation services have gained lot of popularity over the last decade in online fashion stores. These smart can act as a principal defense strategy against consumer over choice and contribute significantly in the economic landscape of the textile and fashion industry. 
 
 <p align="center">
  <img src="/fashion_outfit_rec/Compatibility.pdf" alt="Photo" style=" width: 80%;"/>
