@@ -30,6 +30,7 @@ nav li.active a {
 
 .my-page-header {
   @extend .page-header;
+  background-color: coral;
   background-size: 30% auto;
   background-repeat: repeat;
   background-position: center;
