@@ -16,7 +16,7 @@ nav li {
     padding: 3px;
     margin: 10px;
     border-radius: 5px 5px;
-    color: rgb(200,200,200);
+    color: rgb(240,200,200);
     text-decoration:none;
 }
 nav a {
@@ -30,8 +30,7 @@ nav li.active a {
 
 .my-page-header {
   @extend .page-header;
-  background-color: coral;
-  background-size: 30% auto;
+\  background-size: 30% auto;
   background-repeat: repeat;
   background-position: center;
 }
