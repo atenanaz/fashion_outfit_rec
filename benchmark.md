@@ -1,10 +1,11 @@
 # Benchmark
- The primary scope of this dataset is to support the development of movie recommender systems, and this is the first large-scale dataset in the recommender systems community that provides all types of precomputed content-based descriptors in conjunction with metadata in numerical feature format. Part of these data is used in the  <a href="http://www.multimediaeval.org/mediaeval2018/index.html" target="_blank">MediaEval 2018 </a> (task name: "Recommending Movies Using Content: Which content is key?")
+ We have conducted extensive offline experiments to evaluate how the use of our proposed fashion outfit recommendation system affect the performance compared with state-of-the-art baseline end-to-end Siamese architecture. For the offline experiment, we are targeting the outfit compatibility prediction task, whose goal is to predict a compatibility score to a fashion outfit 
  
-Through our experiments we aim to provide some baseline results to further help researchers use this dataset and compare their results with other papers and experiments.  We performed extensive experiments to identify the best performing descriptor in unimodal and multimodal settings where for the latter we used the late fusion scheme based on <a href="https://dl.acm.org/citation.cfm?id=1864733" target="_blank">Borda count </a> using a proposed linear weighing scheme which showed to significantly improve the performance of the hybrid approach. 
-
-The competing descriptors are: BLF and i-vector features for audio, AVF and AlexNet Deep features for visual and genre label together with user-generated tags for metadata (baseline).  All the experiments were carried out on a selection of ML-20m rating dataset by random selection of 3000 users each having minimum of 50 ratings associated to the consumption profile. The results are reported based on the average performance in a 5-fold cross validation setup.
-
+ Results of extensive experiments for the task outfit compatibility prediction on a publicly available dataset based on Polyvore indicates the merits of the proposed approach, which is able to improve the quality of Siamese-network more than 25\% independent of CNN type and a random recommender by 42\%.
+ 
+ The feature extraction of Fashion items is implemented on MTLAB 2019 on MacBook pro $3.1$ GHz Intel Core $i7$. The pre-trained deep neural networks are used for feature extraction. Likewise, aggregation step and classification are done by MTLAB 2019. The generation of the baseline representations  (siamese network) is implemented on python $3.7$ and \emph{keras} frame work on the server by using common Python libraries (pandas, numpy and scikit-learn,).    
+ 
+ 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
