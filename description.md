@@ -11,5 +11,8 @@ The proposed approach envisioned in this thesis exploits **visual** characterist
 
 
 
+<p align="center">
+ <img src="/fashion_outfit_rec/proposed.jpg" alt="Photo" style=" width: 80%;"/>
+</p>
 
 
