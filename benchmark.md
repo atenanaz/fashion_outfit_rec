@@ -10,55 +10,61 @@
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-9wq8{border-color:inherit;text-align:center;vertical-align:middle}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-7btt{font-weight:bold;border-color:inherit;text-align:center;vertical-align:top}
 </style>
 <table class="tg">
-  <caption> <font size="2"> Table: The best performing descriptor or combination of descriptors with respect to mean reciprocal rank (MRR), mean average precision (MAP), and recall (R) at two cutoff values (@4 and @10)</font> </caption>
   <tr>
-    <th class="tg-s6z2"></th>
-    <th class="tg-amwm">MRR@4</th>
-    <th class="tg-amwm">MAP@4</th>
-    <th class="tg-amwm">R@4</th>
-    <th class="tg-amwm">MRR@10</th>
-    <th class="tg-amwm">MAP@10</th>
-    <th class="tg-amwm">R@10</th>
+    <th class="tg-9wq8"></th>
+    <th class="tg-c3ow">20</th>
+    <th class="tg-9wq8">50</th>
+    <th class="tg-c3ow">100</th>
+    <th class="tg-c3ow">Improvement<br>w.r.t main baseline</th>
   </tr>
   <tr>
-    <td class="tg-amwm">Best unimodal value</td>
-    <td class="tg-baqh">0.0233</td>
-    <td class="tg-baqh">0.0060</td>
-    <td class="tg-baqh">0.0052</td>
-    <td class="tg-baqh">0.0311</td>
-    <td class="tg-baqh">0.0042</td>
-    <td class="tg-baqh">0.0120</td>
+    <td class="tg-c3ow">AlexNet</td>
+    <td class="tg-c3ow">0.7061</td>
+    <td class="tg-c3ow">0.7084</td>
+    <td class="tg-7btt">0.7111</td>
+    <td class="tg-c3ow">25.5% ↑</td>
   </tr>
   <tr>
-    <td class="tg-amwm">Best unimodal feature</td>
-    <td class="tg-baqh">i-vec</td>
-    <td class="tg-baqh">i-vec</td>
-    <td class="tg-baqh">i-vec</td>
-    <td class="tg-baqh">i-vec</td>
-    <td class="tg-baqh">i-vec</td>
-    <td class="tg-baqh">i-vec</td>
+    <td class="tg-c3ow">ResNet18</td>
+    <td class="tg-c3ow">0.6871</td>
+    <td class="tg-c3ow">0.6979</td>
+    <td class="tg-7btt">0.7023</td>
+    <td class="tg-c3ow">24% ↑</td>
   </tr>
   <tr>
-    <td class="tg-amwm">Best multimodal value</td>
-    <td class="tg-baqh">0.0266</td>
-    <td class="tg-baqh">0.0072</td>
-    <td class="tg-baqh">0.0059</td>
-    <td class="tg-baqh">0.0359</td>
-    <td class="tg-baqh">0.0049</td>
-    <td class="tg-baqh">0.0139</td>
+    <td class="tg-c3ow">GoogleNet</td>
+    <td class="tg-c3ow">0.7040</td>
+    <td class="tg-7btt">0.7107</td>
+    <td class="tg-c3ow">0.7098</td>
+    <td class="tg-c3ow">27% ↑</td>
   </tr>
   <tr>
-    <td class="tg-amwm">Best multimodal feature</td>
-    <td class="tg-baqh">i-vec+tag</td>
-    <td class="tg-baqh">i-vec+tag</td>
-    <td class="tg-baqh">i-vec+tag</td>
-    <td class="tg-baqh">i-vec+tag</td>
-    <td class="tg-baqh">i-vec+tag</td>
-    <td class="tg-baqh">i-vec+tag</td>
+    <td class="tg-c3ow">VGG-16</td>
+    <td class="tg-c3ow">0.6917</td>
+    <td class="tg-c3ow">0.6934</td>
+    <td class="tg-7btt">0.7003</td>
+    <td class="tg-c3ow">24% ↑</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">VGG-19</td>
+    <td class="tg-c3ow">0.6910</td>
+    <td class="tg-c3ow">0.6929</td>
+    <td class="tg-7btt">0.6972</td>
+    <td class="tg-c3ow">22.5% ↑</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Siamese (Main baseline)</td>
+    <td class="tg-c3ow" colspan="3">0.5667</td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Random (baseline 2)</td>
+    <td class="tg-c3ow" colspan="3">0.5004</td>
+    <td class="tg-c3ow"></td>
   </tr>
 </table>
