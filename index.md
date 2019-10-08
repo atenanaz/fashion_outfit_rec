@@ -2,7 +2,7 @@ Fashion recommendation services have gained lot of popularity over the last deca
 
 
 <p align="center">
-  <img src="https://atenanaz.github.io/fashion_outfit_rec/proposed.jpg" style="width: 500px;"> 
+  <img src="https://atenanaz.github.io/fashion_outfit_rec/Compatibility.pdf" style="width: 500px;"> 
 </p>
 
 
