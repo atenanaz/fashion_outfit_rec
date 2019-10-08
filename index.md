@@ -1,7 +1,7 @@
 Fashion recommendation services have gained lot of popularity over the last decade in online fashion stores. These smart technologies can act as a principal defense strategy against consumer over choice and contribute significantly in the economic landscape of the textile and fashion industry. 
 
 <p align="center">
- <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/atenanaz/fashion_outfit_rec/blob/494c4e6ce7a5d68d4648ca2797b26b9619628fcb/Compatibility.pdf">Permalink</a>
+ <img src="Compatibility.pdf">
 </p>
 
 Building a fashion RS has characteristics that are challenging in comparison with other domains. One of the key challenges of fashion RS is linked with the fact that human decision making in the fashion domain is largely visual, which means visual appearance and characteristics of fashion items play a key role in users' affinity toward them. Another distinguishing property of fashion recommendation is that human selection choices are largely relational, signifying that the choice of one fashion item can be largely dependent on properties of another fashion item.
