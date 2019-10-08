@@ -1,11 +1,8 @@
 Fashion recommendation services have gained lot of popularity over the last decade in online fashion stores. These smart technologies can act as a principal defense strategy against consumer over choice and contribute significantly in the economic landscape of the textile and fashion industry. 
 
-<p align="center">
- <img src="Compatibility.pdf">
-</p>
 
 <p align="center">
-  <img src="https://atenanaz.github.io/fashion_outfit_rec/proposed.jpg?raw=true" alt="Photo" style="width: 450px;"/> 
+  <img src="https://atenanaz.github.io/fashion_outfit_rec/proposed.jpg" style="width: 450px;"/> 
 </p>
 
 
