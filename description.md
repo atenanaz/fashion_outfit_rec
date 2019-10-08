@@ -12,7 +12,7 @@ The proposed approach envisioned in this thesis exploits **visual** characterist
 
 
 <p align="center">
- <img src="https://atenanaz.github.io/fashion_outfit_rec/Proposed.jpg?raw=true" alt="Photo" style=" width: 80%;"/>
+ <img src="https://atenanaz.github.io/fashion_outfit_rec/Proposed.jpg?raw=true" style=" width:80%">
 </p>
 
 
